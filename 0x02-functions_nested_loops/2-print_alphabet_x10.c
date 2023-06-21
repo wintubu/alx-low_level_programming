@@ -9,10 +9,13 @@ void print_alphabet_x10(void)
 {
 	char alpt;
 	int i;
+
 	i = 0;
+
 		while (i < 10)
 		{
 			alpt = 'a';
+
 			while (alpt <= 'z')
 			{
 				_putchar(alpt);
