@@ -13,5 +13,4 @@ int _isupper(int char)
 		return (1);
 	else
 		return (0);
-
 }
