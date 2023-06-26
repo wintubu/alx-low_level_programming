@@ -2,9 +2,8 @@
 
 /**
  * swap_int - functin having  two int type pointer argument
- * @ x: 1st argument int type
- * @y: 2nd argument int type
- *
+ * @ x: 1sinteger to be swapped
+ * @y: 2nd argument integer to be swapped
  * Description: Using pointer to change value of x and y
  * Return: void
  */
