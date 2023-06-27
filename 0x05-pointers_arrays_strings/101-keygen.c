@@ -41,7 +41,7 @@ int main(void)
 		if (sum == 2772)
 		{
 			flag = 1;
-			printf("%a", a);
+			printf("%s", a);
 		}
 	}
 return (0);
