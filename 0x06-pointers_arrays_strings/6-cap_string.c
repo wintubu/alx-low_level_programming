@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /**
  * cap_string - changes wors to upper case in a string.
  * @s: string to be captalized string.
