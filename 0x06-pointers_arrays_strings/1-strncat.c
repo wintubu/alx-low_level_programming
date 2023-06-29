@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /**
  * _strncat - concatenate strings and defines  the lenghth of second string.
  * @dest: string with concartenation
@@ -6,7 +6,7 @@
  * @n: size of second string
  * Return: Always 0.
  */
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int lengthA, lengthB;
 
