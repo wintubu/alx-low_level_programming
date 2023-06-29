@@ -1,4 +1,4 @@
-include "mainn.h"
+#include "mainn.h"
 /**
  * _strncat - concatenate strings and defines  the lenghth of second string.
  * @dest: string with concartenation
@@ -6,7 +6,7 @@ include "mainn.h"
  * @n: size of second string
  * Return: Always 0.
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
 	int lengthA, lengthB;
 
