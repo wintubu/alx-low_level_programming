@@ -23,4 +23,4 @@ int main(int argc, char *argv[])
 	}
 	printf("%d\n", multiplication);
 	return (0);
-
+}
