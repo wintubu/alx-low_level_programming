@@ -6,10 +6,11 @@
  *
  */
 
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
 	if (!head)
 		return;
-	free_list(head->next);
+	free_listint(head->next);
 	free(head);
 }
+
